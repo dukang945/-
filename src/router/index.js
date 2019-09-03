@@ -6,6 +6,8 @@ import Order from '@/components/Order'
 import My from '@/components/My'
 import User from '@/components/User'
 import Team from '@/components/Team'
+import Help from '@/components/Help'
+import Login from '@/components/login/Login'
 
 Vue.use(Router)
 
@@ -43,6 +45,16 @@ export default new Router({
       path: '/Team',
       name: 'Team',
       component: Team
+    },
+    {
+      path: '/Help',
+      name: 'Help',
+      component: Help
+    },
+    {
+      path: '/Login',
+      name: 'Login',
+      component: Login
     },
   ]
 })

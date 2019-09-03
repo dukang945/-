@@ -32,7 +32,13 @@ export default {
 html {
   height: 100%;
 }
-
+.mint-header{
+  background: #fff;
+  color: #000;
+}
+.content-box{
+  padding: .75rem;
+}
 @media only screen and (min-device-width: 320px) {
   html,
   body {

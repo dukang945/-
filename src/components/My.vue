@@ -76,7 +76,7 @@
       <mt-cell
         title="帮助中心"
         is-link
-        to="/Index"
+        to="/Help"
       >
         <img
           slot="icon"

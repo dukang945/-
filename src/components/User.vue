@@ -9,7 +9,7 @@
       </router-link>
 
     </mt-header>
-    <mt-cell title="标题文字">
+    <mt-cell title="头像">
       <div
         class="user-img"
         @click="uploadHeadImg"
@@ -70,4 +70,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.mint-cell{
+  // border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
 </style>

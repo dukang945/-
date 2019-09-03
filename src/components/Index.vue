@@ -49,38 +49,39 @@ export default {};
     margin-bottom: 1rem;
   }
 }
-.partition{
+.partition {
   text-align: center;
-    .pay-title{
-        position: relative;
-        color: #ccc;
-        font-size: .8rem;
-        text-align: center;
-        &:before,&:after{
-            content:'';
-            width: 5.5rem;
-            color: #ccc;
-            border: .5px solid #ccc;
-            position: absolute;
-            top: 10px;
-        }
-        &::before{
-          left: -6rem;
-        }
-        &:after{
-            right: -6rem;
-        }
+  .pay-title {
+    position: relative;
+    color: #ccc;
+    font-size: 0.8rem;
+    text-align: center;
+    &:before,
+    &:after {
+      content: "";
+      width: 5.5rem;
+      color: #ccc;
+      border: 0.5px solid #ccc;
+      position: absolute;
+      top: 10px;
     }
+    &::before {
+      left: -6rem;
+    }
+    &:after {
+      right: -6rem;
+    }
+  }
 }
-.pay-way{
+.pay-way {
   display: flex;
   justify-content: center;
-  span{
+  span {
     display: block;
     width: 4rem;
     height: 4rem;
-    margin-right: .5rem;
-    background-color:burlywood
+    margin-right: 0.5rem;
+    background-color: burlywood;
   }
 }
 </style>
